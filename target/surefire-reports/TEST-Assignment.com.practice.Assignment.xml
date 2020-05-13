@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Assignment.com.practice.Assignment" time="3.246" tests="12" errors="0" skipped="11" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/maddy/Documents/workspace/com.practice"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="Assignment"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/maddy/Documents/workspace/com.practice"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/kd/59cv5_bd38bfcmpcmcsl1z_40000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.2/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/maddy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.2/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.2/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/maddy"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="maddy"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.2/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=Assignment"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/maddy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.2/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="launchBrowser" classname="Assignment.com.practice.Assignment" time="3.246">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mireshs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f1:6c9c:ec3b:e4ea%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 0   chromedriver                        0x000000010b6a51b9 chromedriver + 4805049&#10;1   chromedriver                        0x000000010b640453 chromedriver + 4392019&#10;2   chromedriver                        0x000000010b2cc48d chromedriver + 771213&#10;3   chromedriver                        0x000000010b229849 chromedriver + 104521&#10;4   chromedriver                        0x000000010b225b00 chromedriver + 88832&#10;5   chromedriver                        0x000000010b222e59 chromedriver + 77401&#10;6   chromedriver                        0x000000010b255163 chromedriver + 282979&#10;7   chromedriver                        0x000000010b251f63 chromedriver + 270179&#10;8   chromedriver                        0x000000010b22ba9d chromedriver + 113309&#10;9   chromedriver                        0x000000010b22ca35 chromedriver + 117301&#10;10  chromedriver                        0x000000010b6682bf chromedriver + 4555455&#10;11  chromedriver                        0x000000010b674a9a chromedriver + 4606618&#10;12  chromedriver                        0x000000010b674829 chromedriver + 4605993&#10;13  chromedriver                        0x000000010b64c159 chromedriver + 4440409&#10;14  chromedriver                        0x000000010b675023 chromedriver + 4608035&#10;15  chromedriver                        0x000000010b65dec3 chromedriver + 4513475&#10;16  chromedriver                        0x000000010b68b774 chromedriver + 4700020&#10;17  chromedriver                        0x000000010b6ab277 chromedriver + 4829815&#10;18  libsystem_pthread.dylib             0x00007fff5de502eb _pthread_body + 126&#10;19  libsystem_pthread.dylib             0x00007fff5de53249 _pthread_start + 66&#10;20  libsystem_pthread.dylib             0x00007fff5de4f40d thread_start + 13&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mireshs-MacBook-Pro.local', ip: 'fe80:0:0:0:14f1:6c9c:ec3b:e4ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_131'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b6a51b9 chromedriver + 4805049
+1   chromedriver                        0x000000010b640453 chromedriver + 4392019
+2   chromedriver                        0x000000010b2cc48d chromedriver + 771213
+3   chromedriver                        0x000000010b229849 chromedriver + 104521
+4   chromedriver                        0x000000010b225b00 chromedriver + 88832
+5   chromedriver                        0x000000010b222e59 chromedriver + 77401
+6   chromedriver                        0x000000010b255163 chromedriver + 282979
+7   chromedriver                        0x000000010b251f63 chromedriver + 270179
+8   chromedriver                        0x000000010b22ba9d chromedriver + 113309
+9   chromedriver                        0x000000010b22ca35 chromedriver + 117301
+10  chromedriver                        0x000000010b6682bf chromedriver + 4555455
+11  chromedriver                        0x000000010b674a9a chromedriver + 4606618
+12  chromedriver                        0x000000010b674829 chromedriver + 4605993
+13  chromedriver                        0x000000010b64c159 chromedriver + 4440409
+14  chromedriver                        0x000000010b675023 chromedriver + 4608035
+15  chromedriver                        0x000000010b65dec3 chromedriver + 4513475
+16  chromedriver                        0x000000010b68b774 chromedriver + 4700020
+17  chromedriver                        0x000000010b6ab277 chromedriver + 4829815
+18  libsystem_pthread.dylib             0x00007fff5de502eb _pthread_body + 126
+19  libsystem_pthread.dylib             0x00007fff5de53249 _pthread_start + 66
+20  libsystem_pthread.dylib             0x00007fff5de4f40d thread_start + 13
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Assignment.com.practice.ReuseableMethods.LaunchChromeBrowser(ReuseableMethods.java:15)
+	at Assignment.com.practice.Assignment.launchBrowser(Assignment.java:20)
+]]></failure>
+    <system-out><![CDATA[Configuring TestNG with: TestNG652Configurator
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 36526
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="navitagetoHomePage" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createAccount" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="selectProductFromWomanSection" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkoutAndVerifyAmount" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="amountVerificationInProfilePage" classname="Assignment.com.practice.Assignment" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
